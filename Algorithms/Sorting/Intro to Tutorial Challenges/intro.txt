@@ -1,0 +1,35 @@
+ALL TEST CASES PASSED
+
+
+Sample Challenge 
+This is a simple challenge to get things started. Given a sorted array (ar) and a number (V), can you print the index location of V in the array?
+
+{The next section describes the input format. You can often skip it if you are using included methods. }
+
+Input Format
+There will be three lines of input:
+
+V - the value you are looking for.
+n - the size of the array.
+ar - n numbers that makes up the array.
+Output Format
+Output the index of V in the array.
+
+{The next section describes the constraints and ranges of the input. Occasionally you want to check here to see how big the input could be. }
+
+Constraints
+1<=n<=1000 
+-1000 <=x <= 1000 , x ∈ ar
+
+{This “sample” shows the first input case. It is often useful to skip to the sample to understand a challenge. }
+
+Sample Input
+
+4
+6
+1 4 5 7 9 12
+Sample Output
+
+1
+Explanation
+V = 4. The 4 is located in the 1th spot on the array, so the answer is 1.
