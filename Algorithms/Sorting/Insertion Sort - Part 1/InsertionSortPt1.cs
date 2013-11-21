@@ -19,16 +19,13 @@ static void insertionSort(int[] ar) {
             if (ar[i+1] == valueSave){break;}
             Console.WriteLine();
         }
-        if (valueSave <= ar[i]){
-            ar[i] = valueSave;
+        if (valueSave <= ar[0]){
+            ar[0] = valueSave;
             foreach(var item in ar){
                 Console.Write(item.ToString() + " ");
             }
         }
     }
-    
-    
-
 }
 /* Tail starts here */
 /* Tail starts here */
