@@ -16,8 +16,8 @@ public class Solution {
            }
            lList.addAll(uList);
            System.out.println(lList.toString().replace(",", "")
-                .replace("[", "")
-                .replace("]", ""));
+                   .replace("[", "")
+                   .replace("]", ""));
        }   
 
 /* Tail starts here */
