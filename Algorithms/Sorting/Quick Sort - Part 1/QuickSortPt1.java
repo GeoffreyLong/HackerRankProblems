@@ -3,7 +3,7 @@ import java.util.*;
 public class Solution {
        
        static void partition(int[] ar) {
-           List lList = new LinkedList<Integer>();
+    	   List lList = new LinkedList<Integer>();
            List uList = new LinkedList<Integer>();
            int firstVal = ar[0];
            for (int i : ar){
